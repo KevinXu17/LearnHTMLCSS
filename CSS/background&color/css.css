@@ -1,0 +1,19 @@
+h1 {
+  color: red;
+  background: yellow;
+  /* border-color: black;
+  border-width: 5px;
+  border-style: dashed; */
+  border: purple solid 5px ;
+}
+h4  {
+  color: rgba(11 ,99,150, .5);
+}
+li {
+  color: green;
+}
+body {
+  background: url(http://4.bp.blogspot.com/-hy0eViH_660/UlTL8ehA_hI/AAAAAAAAI_8/zGtHkVErnr8/s1600/monarch+migration+2013.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

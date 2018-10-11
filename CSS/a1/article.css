@@ -1,0 +1,28 @@
+body {
+  border: 20px solid #bdc3c7;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  max-width: 700px;
+}
+div {
+  margin: 20px 20px 20px 20px;
+}
+#date {
+  font-family: Mali;
+  color: #3498db;
+  /* margin: 20px 0px 40px 0px; */
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+p {
+  font-family: PT Sans;
+  /* margin-right: 20px; */
+}
+h2 {
+  font-family: Ubuntu;
+}
+#p1 {
+  border-left: 3px solid gray;
+  padding-left: 0.5em;
+}

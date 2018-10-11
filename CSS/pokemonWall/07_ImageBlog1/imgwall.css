@@ -1,0 +1,13 @@
+img {
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+}
+h1 {
+  margin: 1.66%;
+  font-family: Raleway;
+  text-transform: uppercase;
+  border-bottom: 2px solid purple;
+  width: 300px;
+  padding-bottom: 10px;
+}

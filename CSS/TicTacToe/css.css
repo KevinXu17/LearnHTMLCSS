@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+td {
+  width: 100px;
+  height: 100px;
+  /* background: pink; */
+}
+table {
+  margin: auto;
+}
+
+table tr:nth-of-type(1) td:nth-of-type(1) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* border-bottom: none; */
+  margin: 0 0 0 0;
+}
+table tr:nth-of-type(1) td:nth-of-type(2) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-top: none;
+  /* border-left: none; */
+  margin: 0 0 0 0;
+}
+table tr:nth-of-type(1) td:nth-of-type(3) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+table tr:nth-of-type(2) td:nth-of-type(1) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+table tr:nth-of-type(2) td:nth-of-type(2) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-top: none;
+  border-bottom: none;
+}
+table tr:nth-of-type(2) td:nth-of-type(3) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+table tr:nth-of-type(3) td:nth-of-type(1) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+table tr:nth-of-type(3) td:nth-of-type(2) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-bottom: none;
+}
+table tr:nth-of-type(3) td:nth-of-type(3) {
+  border: 1px solid black;
+  /* padding: 50px; */
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}

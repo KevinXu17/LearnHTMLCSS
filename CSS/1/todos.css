@@ -1,0 +1,14 @@
+li {
+  border: 2px solid red;
+}
+/* # is for id */
+#third-li {
+  border: 2px solid black;
+  color: green;
+}
+/* . is for class */
+.first-li {
+  
+
+  color: purple;
+}

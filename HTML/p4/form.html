@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form id = "Register">
+<div>
+  <label for= "firstname">First Name:</label>
+  <input id="firstname" name="first-name" type="text" placeholder="first name"  required />
+  <label for = "lastname">Last Name:</label>
+  <input id = "lastname" name="last-name" type="text" placeholder="last name"  required/>
+</div>
+<div>
+  <label for= "male">Male</label>
+  <input name = "gender" id="male" type="radio" value="male" required/>
+  <label for = "femal">Female</label>
+  <input name = "gender" id = "female" type="radio" value="femal" required />
+  <label for = "other">Other</label>
+  <input name = "gender" id = "other" type="radio" value="other" required />
+</div>
+<div>
+  <label for = "email">Email:</label>
+  <input id = "email" name="email" type="email" placeholder="email"   required />
+  <label for = "emailpassword">Password:</label>
+  <input id = "emailpassword" name="emailpassword" type="password" placeholder="password"   pattern=".{5,10}" title="5 to 10 characters" required  />
+</div>
+<div>
+  <label for = "date">Birthday</label>
+  <select id = "date" name="month"  required>
+<option disabled selected hidden>Month</option>
+<option value="January">January</option>
+ <option value="Faburay">Faburay</option>
+ <option value="March">March</option>
+  </select>
+  <select id = "date" name="day"  required>
+<option disabled selected hidden>Day</option>
+<option value="1st">1st</option>
+<option value="2nd">2nd</option>
+<option value="3rd">3rd</option>
+  </select>
+  <select id = "date" value="year" required>
+<option disabled selected hidden>Year</option>
+<option value="1988">1988</option>
+<option value="1989">1989</option>
+<option value="1990">1990</option>
+  </select>
+<div>
+  <label for = "agreement">I agree to the terms and conditions</label>
+  <input id = "agreement" name="agreement" type="checkbox" required />
+</div>
+    <button>Summit</button>
+  </form>
+  </body>
+</html>
